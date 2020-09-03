@@ -1,0 +1,5 @@
+print ("What is your first name: ", end='')
+first_name= input()
+print ("What is your last name: ", end='')
+last_name= input()
+print("Your name is: ",first_name, last_name)

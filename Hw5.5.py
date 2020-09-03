@@ -1,0 +1,5 @@
+Fivecents=int(input("How many 5-cents coins do you have? "))
+Twocents=int(input("How many 2-cents coins do you have? "))
+Onecent=int(input("How many 1-cent coins do you have? "))
+Totalmoney=float(5*Fivecents+2*Twocents+Onecent)
+print ("The total value of these coins is: %0.2f" %(Totalmoney/100),"dollars.")
